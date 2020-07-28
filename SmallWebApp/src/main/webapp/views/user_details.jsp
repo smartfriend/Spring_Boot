@@ -8,8 +8,10 @@
 </head>
 <body>
 <h1>User Details</h1>
-
-User name is : ${userName}
-User Password is : ${userPassword}
+ 
+User Name: ${modelObj.userName}<br>
+User Email: ${modelObj.userEmail}<br>
+User Gender: ${modelObj.gender}<br>
+User Hobbies: ${modelObj.hobbies[0]}, ${modelObj.hobbies[1]}
 </body>
 </html>
